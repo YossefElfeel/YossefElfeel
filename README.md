@@ -85,7 +85,7 @@ What changed recently: I stopped handing the Figma file over and started **build
 ### GitHub
 
 <p align="left">
-  <picture><img alt="Stats" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&hide=stars,issues&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8"></picture>
+  <picture><img alt="Stats" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&hide_zero=true&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8"></picture>
   <picture><img alt="Top languages" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api/top-langs/?username=YossefElfeel&layout=donut&langs_count=8&hide_border=true&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E"></picture>
 </p>
 
