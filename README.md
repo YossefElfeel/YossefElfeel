@@ -5,8 +5,8 @@
 </picture>
 
 <p align="left">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=yossefelfeel&label=PROFILE%20VIEWS&color=075985&style=for-the-badge&abbreviated=true">
-  <img alt="Followers" src="https://img.shields.io/github/followers/YossefElfeel?style=for-the-badge&labelColor=161B22&color=075985&logo=github&logoColor=white&label=FOLLOWERS">
+  <picture><img alt="Profile views" src="https://komarev.com/ghpvc/?username=yossefelfeel&label=PROFILE%20VIEWS&color=075985&style=for-the-badge&abbreviated=true"></picture>
+  <picture><img alt="Followers" src="https://img.shields.io/github/followers/YossefElfeel?style=for-the-badge&labelColor=161B22&color=075985&logo=github&logoColor=white&label=FOLLOWERS"></picture>
 </p>
 
 ---
@@ -26,35 +26,35 @@ What changed recently: I stopped handing the Figma file over and started **build
 **Design**
 
 <p align="left">
-  <img alt="Figma" title="Figma — auto layout, components & variants, design tokens" src="assets/chips/figma.svg">
-  <img alt="Design Systems" title="Shared component libraries and tokens across products" src="assets/chips/design-systems.svg">
-  <img alt="Prototyping" title="Interactive prototypes for flows and micro-interactions" src="assets/chips/prototyping.svg">
-  <img alt="Dev Mode Handoff" title="Dev Mode specs and developer handoff" src="assets/chips/dev-mode-handoff.svg">
-  <img alt="User Flows" title="User flows and information architecture" src="assets/chips/user-flows.svg">
-  <img alt="Product Design" title="Problem framing through to a shipped surface" src="assets/chips/product-design.svg">
+  <picture><img alt="Figma" title="Figma — auto layout, components & variants, design tokens" src="assets/chips/figma.svg"></picture>
+  <picture><img alt="Design Systems" title="Shared component libraries and tokens across products" src="assets/chips/design-systems.svg"></picture>
+  <picture><img alt="Prototyping" title="Interactive prototypes for flows and micro-interactions" src="assets/chips/prototyping.svg"></picture>
+  <picture><img alt="Dev Mode Handoff" title="Dev Mode specs and developer handoff" src="assets/chips/dev-mode-handoff.svg"></picture>
+  <picture><img alt="User Flows" title="User flows and information architecture" src="assets/chips/user-flows.svg"></picture>
+  <picture><img alt="Product Design" title="Problem framing through to a shipped surface" src="assets/chips/product-design.svg"></picture>
 </p>
 
 **AI &amp; vibe coding**
 
 <p align="left">
-  <img alt="Claude" title="Claude — product thinking, copy and analysis" src="assets/chips/claude.svg">
-  <img alt="Claude Code" title="Claude Code — agentic coding in the terminal" src="assets/chips/claude-code.svg">
-  <img alt="ChatGPT" title="ChatGPT — ideation and quick iteration" src="assets/chips/chatgpt.svg">
-  <img alt="Codex" title="Codex — code generation and refactors" src="assets/chips/codex.svg">
-  <img alt="Gemini" title="Gemini — research and multimodal work" src="assets/chips/gemini.svg">
+  <picture><img alt="Claude" title="Claude — product thinking, copy and analysis" src="assets/chips/claude.svg"></picture>
+  <picture><img alt="Claude Code" title="Claude Code — agentic coding in the terminal" src="assets/chips/claude-code.svg"></picture>
+  <picture><img alt="ChatGPT" title="ChatGPT — ideation and quick iteration" src="assets/chips/chatgpt.svg"></picture>
+  <picture><img alt="Codex" title="Codex — code generation and refactors" src="assets/chips/codex.svg"></picture>
+  <picture><img alt="Gemini" title="Gemini — research and multimodal work" src="assets/chips/gemini.svg"></picture>
 </p>
 
 **Build**
 
 <p align="left">
-  <img alt="TypeScript" title="TypeScript — my primary language" src="assets/chips/typescript.svg">
-  <img alt="Next.js" title="Next.js — App Router, server components" src="assets/chips/next-js.svg">
-  <img alt="React" title="React — component architecture" src="assets/chips/react.svg">
-  <img alt="Tailwind" title="Tailwind CSS — design tokens straight into markup" src="assets/chips/tailwind.svg">
-  <img alt="Flutter" title="Flutter — cross-platform mobile" src="assets/chips/flutter.svg">
-  <img alt="Supabase" title="Supabase — Postgres, auth and storage" src="assets/chips/supabase.svg">
-  <img alt="Vercel" title="Vercel — deployment and preview environments" src="assets/chips/vercel.svg">
-  <img alt="Git" title="Git — version control and code review" src="assets/chips/git.svg">
+  <picture><img alt="TypeScript" title="TypeScript — my primary language" src="assets/chips/typescript.svg"></picture>
+  <picture><img alt="Next.js" title="Next.js — App Router, server components" src="assets/chips/next-js.svg"></picture>
+  <picture><img alt="React" title="React — component architecture" src="assets/chips/react.svg"></picture>
+  <picture><img alt="Tailwind" title="Tailwind CSS — design tokens straight into markup" src="assets/chips/tailwind.svg"></picture>
+  <picture><img alt="Flutter" title="Flutter — cross-platform mobile" src="assets/chips/flutter.svg"></picture>
+  <picture><img alt="Supabase" title="Supabase — Postgres, auth and storage" src="assets/chips/supabase.svg"></picture>
+  <picture><img alt="Vercel" title="Vercel — deployment and preview environments" src="assets/chips/vercel.svg"></picture>
+  <picture><img alt="Git" title="Git — version control and code review" src="assets/chips/git.svg"></picture>
 </p>
 
 ---
@@ -84,12 +84,12 @@ What changed recently: I stopped handing the Figma file over and started **build
 ### GitHub
 
 <p align="left">
-  <img alt="Stats" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&hide=stars,issues&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8">
-  <img alt="Top languages" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api/top-langs/?username=YossefElfeel&layout=donut&langs_count=8&hide_border=true&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E">
+  <picture><img alt="Stats" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&hide=stars,issues&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8"></picture>
+  <picture><img alt="Top languages" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api/top-langs/?username=YossefElfeel&layout=donut&langs_count=8&hide_border=true&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E"></picture>
 </p>
 
 <p align="left">
-  <img alt="Streak" src="https://streak-stats.demolab.com/?user=YossefElfeel&hide_border=true&background=0D1117&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF">
+  <picture><img alt="Streak" src="https://streak-stats.demolab.com/?user=YossefElfeel&hide_border=true&background=0D1117&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF"></picture>
 </p>
 
 <picture>
