@@ -75,7 +75,7 @@ What changed recently: I stopped handing the Figma file over and started **build
 | :-- | :-- | :-- |
 | **Itqan** · إتقان | Qur'an spaced-repetition system. SM-2 algorithm adapted for memorization with length-aware daily caps. Next.js 16, React 19, TypeScript. | [itqan-azure.vercel.app](https://itqan-azure.vercel.app) |
 | **Quran Center** | Memorization-centre platform — Flutter mobile app, Next.js super-admin dashboard, Supabase backend. | [quran-web-sage.vercel.app](https://quran-web-sage.vercel.app) |
-| **Mahal Sanayi** · محل صنايعي | Arabic RTL, mobile-first storefront for home-appliance spare parts, built for Egyptian repair technicians — plus an owner dashboard for products, orders and pricing. React + Vite + Tailwind, Express API, swappable JSON/Supabase backend. | [live demo](https://e-commerce-livid-one-61.vercel.app) |
+| **Mahal Sanayi** · محل صنايعي | Arabic RTL, mobile-first storefront for home-appliance spare parts, built for Egyptian repair technicians — plus an owner dashboard for products, orders and pricing. React + Vite + Tailwind, Express API, swappable JSON/Supabase backend. | [repo](https://github.com/YossefElfeel/e-commerce) · [demo](https://e-commerce-livid-one-61.vercel.app) |
 | **Somion HR Payroll** | End-to-end payroll workflow with HR / Admin / Finance roles, batched approvals and a per-employee state machine. Next.js 15. | [repo](https://github.com/YossefElfeel/somion-hr-payroll) · [demo](https://somion-hr-payroll.vercel.app) |
 
 **Design portfolio** — [Figma](https://www.figma.com/design/Ck1QBlVLSMSvrc06E6EhYL/Yossef-Elfeel-ui-ux-designer--Portfolio-File?node-id=19-218784) · [Behance](https://www.behance.net/yossefelfeel)
