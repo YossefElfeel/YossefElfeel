@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 264" width="1000" height="264" role="img" aria-label="Yossef Elfeel — UI/UX and Product Designer. I design the product, then build it with AI.">
+  <title>Yossef Elfeel — UI/UX &amp; Product Designer</title>
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+
+      .name        { font-size: 52px; font-weight: 700; fill: #FFFFFF; }
+      .role        { font-size: 20px; font-weight: 500; fill: #E6EDF3; }
+      .tagline     { font-size: 15px; font-weight: 400; fill: #8B949E; }
+      .eyebrow     { font-size: 11px; font-weight: 500; fill: #6E7681; }
+      .meta        { font-size: 11px; font-weight: 500; fill: #6E7681; }
+      .meta-accent { font-size: 11px; font-weight: 500; fill: #38BDF8; }
+
+      /* ------------------------------------------------------------------
+         MOTION
+
+         Two rules learned the hard way, both verified frame-by-frame in Blink:
+
+         1. Every animation is a plain two-keyframe from/to. A *leading hold*
+            (0% and 28% carrying identical values, then moving) silently never
+            reaches its end keyframe on <text> in Blink — the element stays at
+            its start value for the whole run and only snaps in via fill.
+         2. The wipe rects need explicit user-space transform-origin.
+            `transform-box: fill-box` resolves to a zero bbox for clipPath
+            children, which collapses scaleX and the text never appears.
+
+         Base styles are the SETTLED frame, so the reduced-motion branch below
+         is a plain stop with nothing to re-declare.
+         ------------------------------------------------------------------ */
+
+      #nameWipe { transform-origin: 58px 87px; }
+      #tagWipe  { transform-origin: 60px 191px; }
+
+      #eyebrow  { opacity: 1; animation: rise   520ms  cubic-bezier(.16,1,.3,1)    0ms both; }
+      #nameWipe { animation: wipe   900ms  cubic-bezier(.16,1,.3,1)  120ms both; }
+      #rule     { stroke-dasharray: 108; stroke-dashoffset: 0;
+                  animation: draw   620ms  cubic-bezier(.16,1,.3,1)  780ms both; }
+      #role     { opacity: 1; animation: rise   620ms  cubic-bezier(.16,1,.3,1)  980ms both; }
+      #tagWipe  { animation: wipe  1150ms  steps(44, end)           1380ms both; }
+      #footRow  { opacity: 1; animation: rise   640ms  cubic-bezier(.16,1,.3,1) 2420ms both; }
+
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      /* 44 steps === 44 characters of the tagline, so it types, not wipes. */
+      @keyframes wipe {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
+      @keyframes draw {
+        from { stroke-dashoffset: 108; }
+        to   { stroke-dashoffset: 0; }
+      }
+
+      /* Caret rides the typing edge on the same 44-step clock, then blinks. */
+      #caret {
+        opacity: 1;
+        transform: translateX(396px);
+        animation: caretRun  1150ms steps(44, end) 1380ms both,
+                   caretBlink 1000ms step-end      1380ms infinite;
+      }
+      @keyframes caretRun {
+        from { transform: translateX(0); }
+        to   { transform: translateX(396px); }
+      }
+      @keyframes caretBlink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+
+      .spark { opacity: 0.4; animation: spark 4200ms ease-in-out infinite; }
+      @keyframes spark {
+        0%, 100% { opacity: 0.18; r: 1.6; }
+        50%      { opacity: 0.85; r: 2.2; }
+      }
+
+      /* Base styles are already the settled frame, so this is just a stop. */
+      @media (prefers-reduced-motion: reduce) {
+        #eyebrow, #nameWipe, #rule, #role, #tagWipe, #footRow, #caret, .spark { animation: none; }
+        .spark { opacity: 0.5; }
+      }
+    ]]></style>
+
+    <!-- dot field -->
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#8B949E"/>
+    </pattern>
+    <linearGradient id="dotFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1"    stop-color="#FFFFFF" stop-opacity="0.5"/>
+    </linearGradient>
+    <mask id="dotMask">
+      <rect x="620" y="38" width="322" height="106" fill="url(#dotFade)"/>
+    </mask>
+
+    <!-- reveal masks -->
+    <clipPath id="nameClip"><rect id="nameWipe" class="wipe" x="58" y="56"  width="510" height="62"/></clipPath>
+    <clipPath id="tagClip"> <rect id="tagWipe"  class="wipe" x="60" y="180" width="398" height="22"/></clipPath>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1000" height="264" fill="#0D1117"/>
+  <rect x="0" y="263" width="1000" height="1" fill="#21262D"/>
+
+  <!-- dot field -->
+  <rect x="620" y="38" width="322" height="106" fill="url(#dots)" mask="url(#dotMask)"/>
+  <g fill="#38BDF8">
+    <circle class="spark" cx="698" cy="74"  r="1.6" style="animation-delay: 0ms"/>
+    <circle class="spark" cx="794" cy="98"  r="1.6" style="animation-delay: 900ms"/>
+    <circle class="spark" cx="890" cy="50"  r="1.6" style="animation-delay: 1800ms"/>
+    <circle class="spark" cx="746" cy="122" r="1.6" style="animation-delay: 2700ms"/>
+    <circle class="spark" cx="866" cy="98"  r="1.6" style="animation-delay: 3400ms"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text id="eyebrow" class="mono eyebrow" x="60" y="46" textLength="120" lengthAdjust="spacing">CAIRO · EGYPT</text>
+
+  <!-- name -->
+  <g clip-path="url(#nameClip)">
+    <text class="sans name" x="60" y="104" textLength="500" lengthAdjust="spacing">YOSSEF ELFEEL</text>
+  </g>
+
+  <!-- accent rule -->
+  <line id="rule" x1="60" y1="128" x2="168" y2="128" stroke="#38BDF8" stroke-width="3" stroke-linecap="butt"/>
+
+  <!-- role -->
+  <text id="role" class="sans role" x="60" y="166" textLength="292" lengthAdjust="spacing">UI/UX &amp; Product Designer</text>
+
+  <!-- tagline: types in on a 44-step clock -->
+  <g clip-path="url(#tagClip)">
+    <text class="mono tagline" x="60" y="195" textLength="396" lengthAdjust="spacing">I design the product, then build it with AI.</text>
+  </g>
+  <rect id="caret" x="60" y="183" width="8" height="15" fill="#38BDF8"/>
+
+  <!-- foot row -->
+  <g id="footRow">
+    <text class="mono meta" x="60" y="234" textLength="361" lengthAdjust="spacing">TESLM LOGISTICS · SOMION.ORG · INDEPENDENT</text>
+    <text class="mono meta-accent" x="940" y="234" text-anchor="end" textLength="255" lengthAdjust="spacing">FIGMA → CLAUDE CODE → SHIPPED</text>
+  </g>
+</svg>
