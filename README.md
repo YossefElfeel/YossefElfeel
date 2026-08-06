@@ -26,35 +26,35 @@ What changed recently: I stopped handing the Figma file over and started **build
 **Design**
 
 <p align="left">
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-161B22?style=for-the-badge">
-  <img alt="Design Systems" src="https://img.shields.io/badge/Design_Systems-161B22?style=for-the-badge">
-  <img alt="Prototyping" src="https://img.shields.io/badge/Prototyping-161B22?style=for-the-badge">
-  <img alt="Dev Mode Handoff" src="https://img.shields.io/badge/Dev_Mode_Handoff-161B22?style=for-the-badge">
-  <img alt="User Flows" src="https://img.shields.io/badge/User_Flows-161B22?style=for-the-badge">
-  <img alt="Product Design" src="https://img.shields.io/badge/Product_Design-161B22?style=for-the-badge">
+  <img alt="Figma" title="Figma — auto layout, components & variants, design tokens" src="assets/chips/figma.svg">
+  <img alt="Design Systems" title="Shared component libraries and tokens across products" src="assets/chips/design-systems.svg">
+  <img alt="Prototyping" title="Interactive prototypes for flows and micro-interactions" src="assets/chips/prototyping.svg">
+  <img alt="Dev Mode Handoff" title="Dev Mode specs and developer handoff" src="assets/chips/dev-mode-handoff.svg">
+  <img alt="User Flows" title="User flows and information architecture" src="assets/chips/user-flows.svg">
+  <img alt="Product Design" title="Problem framing through to a shipped surface" src="assets/chips/product-design.svg">
 </p>
 
 **AI &amp; vibe coding**
 
 <p align="left">
-  <img alt="Claude" src="https://img.shields.io/badge/Claude-075985?style=for-the-badge">
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-075985?style=for-the-badge">
-  <img alt="ChatGPT" src="https://img.shields.io/badge/ChatGPT-075985?style=for-the-badge">
-  <img alt="Codex" src="https://img.shields.io/badge/Codex-075985?style=for-the-badge">
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-075985?style=for-the-badge">
+  <img alt="Claude" title="Claude — product thinking, copy and analysis" src="assets/chips/claude.svg">
+  <img alt="Claude Code" title="Claude Code — agentic coding in the terminal" src="assets/chips/claude-code.svg">
+  <img alt="ChatGPT" title="ChatGPT — ideation and quick iteration" src="assets/chips/chatgpt.svg">
+  <img alt="Codex" title="Codex — code generation and refactors" src="assets/chips/codex.svg">
+  <img alt="Gemini" title="Gemini — research and multimodal work" src="assets/chips/gemini.svg">
 </p>
 
 **Build**
 
 <p align="left">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-161B22?style=for-the-badge">
-  <img alt="React" src="https://img.shields.io/badge/React-161B22?style=for-the-badge">
-  <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-161B22?style=for-the-badge">
-  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-161B22?style=for-the-badge">
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-161B22?style=for-the-badge">
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-161B22?style=for-the-badge">
-  <img alt="Git" src="https://img.shields.io/badge/Git-161B22?style=for-the-badge">
+  <img alt="TypeScript" title="TypeScript — my primary language" src="assets/chips/typescript.svg">
+  <img alt="Next.js" title="Next.js — App Router, server components" src="assets/chips/next-js.svg">
+  <img alt="React" title="React — component architecture" src="assets/chips/react.svg">
+  <img alt="Tailwind" title="Tailwind CSS — design tokens straight into markup" src="assets/chips/tailwind.svg">
+  <img alt="Flutter" title="Flutter — cross-platform mobile" src="assets/chips/flutter.svg">
+  <img alt="Supabase" title="Supabase — Postgres, auth and storage" src="assets/chips/supabase.svg">
+  <img alt="Vercel" title="Vercel — deployment and preview environments" src="assets/chips/vercel.svg">
+  <img alt="Git" title="Git — version control and code review" src="assets/chips/git.svg">
 </p>
 
 ---
@@ -84,8 +84,8 @@ What changed recently: I stopped handing the Figma file over and started **build
 ### GitHub
 
 <p align="left">
-  <img alt="Stats" height="165" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8">
-  <img alt="Top languages" height="165" src="https://github-readme-stats-mu-mauve-73.vercel.app/api/top-langs/?username=YossefElfeel&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E">
+  <img alt="Stats" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api?username=YossefElfeel&show_icons=true&hide_border=true&hide=stars,issues&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8">
+  <img alt="Top languages" height="200" src="https://github-readme-stats-mu-mauve-73.vercel.app/api/top-langs/?username=YossefElfeel&layout=donut&langs_count=8&hide_border=true&disable_animations=true&bg_color=0D1117&title_color=38BDF8&text_color=8B949E">
 </p>
 
 <p align="left">
